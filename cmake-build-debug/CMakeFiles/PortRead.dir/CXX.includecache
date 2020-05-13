@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/01121811/CLionProjects/PortRead/Port.h
+windows.h
+-
+string
+-
+ios
+-
+vector
+-
+
+C:/Users/01121811/CLionProjects/PortRead/main.cpp
+Port.h
+C:/Users/01121811/CLionProjects/PortRead/Port.h
+iostream
+-
+

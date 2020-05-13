@@ -1,0 +1,3 @@
+C:/Users/01121811/CLionProjects/PortRead/cmake-build-debug/CMakeFiles/PortRead.dir
+C:/Users/01121811/CLionProjects/PortRead/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/01121811/CLionProjects/PortRead/cmake-build-debug/CMakeFiles/rebuild_cache.dir
