@@ -41,7 +41,7 @@ class Port
             while(*j != '\n' && *j !=' ')
                 j++;
             std::string tmpStr = str.substr(i - str.begin(), j - i);
-            dataType data = (std::stoi(tmpStr));
+            dataType data = (std::stod(tmpStr));
             result.push_back(data);
 
             if(*j != '\n')
