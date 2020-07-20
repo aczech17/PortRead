@@ -63,7 +63,7 @@ class Port
         }
     }
 public:
-	Port(const std::string portName, DWORD baudRate = CBR_9600)
+	Port(const std::string& portName, DWORD baudRate = CBR_9600)
 	{
 		this->Port(baudRate);
 		this->init(portName);
