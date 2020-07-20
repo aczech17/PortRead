@@ -83,7 +83,7 @@ public:
 		timeouts.WriteTotalTimeoutConstant = 50;
 		timeouts.WriteTotalTimeoutMultiplier = 10;
 	}
-    void init(const std::string portName = "COM3")
+    void init(const std::string& portName = "COM3")
     {
         hComm = CreateFileA(
                 portName.data(),	//port name (char* required)
